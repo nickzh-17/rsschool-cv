@@ -1,9 +1,9 @@
-CV
+# CV
 
-Junior Front-end Developer
+## Junior Front-end Developer
 
-Personal information:
+### Personal information:
 
-    Full name:		Zhevnerov Nikolai Olegovich
-    Birth Date:		17.05.2000
-    Gender:			male
+- Full name: _Zhevnerov Nikolai Olegovich_
+- Birth Date: _17.05.2000_
+- Gender: _male_
