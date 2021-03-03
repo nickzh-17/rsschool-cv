@@ -23,17 +23,17 @@
   - My priorities are to get structured and complete knowledge, sufficient to ensure the effectiveness of further training and the results of future work.
 
 - **My strengths**
- - Обучаемость, открытость и стремление к новым знаниям
- - Усидчивость, терпение
+    - Обучаемость, открытость и стремление к новым знаниям
+    - Усидчивость, терпение
 
 - **Experience**
 
 - **Personal qualities**
- - Честность, толерантность
- - Пунктуальность
+    - Честность, толерантность
+    - Пунктуальность
 
 - **Free time activities**
-  My free time is separated from occupations related to profession or study. Usually it is quiet or active leisure alone or with friends, running or basketball, reading books, playing the guitar.
+    My free time is separated from occupations related to profession or study. Usually it is quiet or active leisure alone or with friends, running or basketball, reading books, playing the guitar.
 
 ### Professional knowledge
 
@@ -42,7 +42,7 @@
     - Introduction to the Internet on webref.ru
     - HTML Basics by Yauhen Kavalchuk
     - CSS Basics by Yauhen Kavalchuk
-  
+
 - **Skills**
   - HTML/CSS
   - Git & GitHub
@@ -58,4 +58,4 @@
   - English (A2)
 
 - **Experience**
-  _Absent_
+
