@@ -42,7 +42,7 @@
     - Introduction to the Internet on webref.ru
     - HTML Basics by Yauhen Kavalchuk
     - CSS Basics by Yauhen Kavalchuk
-
+  
 - **Skills**
   - HTML/CSS
   - Git & GitHub
