@@ -8,60 +8,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="div-cover">
-        
+     <div class="wrapper">
+
         <!-- Header with page title -->
-        <header>
-            <h1 class="page-title">CV</h1>
+        <header class="header">
+            <div class="cv_header">CV</div>
+            <div class="speciality_header">Junior Front-end Developer</div>
         </header>
         
         <main>
             <!-- Section with information about me and my professional knowledge and skills -->
-            <section class="section-inf">
-                <h2 class="cv-specialty">Junior Front-end Developer</h2>
-                
+            <section class="content_wrapper">
+                <h2 hidden>hidden section heading</h2>
+
                 <!-- Personal information -->
-                <article class="pers-inf">
-                    <h3>Personal information</h3>
+                <article class="personal_container">
+                    <h3 class="article_title">Personal information</h3>
 
-                    <figure class="avatar">
-                        <img class="avatar-img" src="img/avatar.jpg" alt="avatar">
-                        <figcaption></figcaption>
-                    </figure>
+                    <div class="personal_content">
+                        <figure class="personal_photo">
+                            <figcaption>My photo</figcaption>
+                            <img class="personal_img" src="img/avatar.jpg" alt="My photo">
+                        </figure>
 
-                    <ul>
-                        <li>
-                            <h4>Full name</h4>
-                            <span>Zhevnerov Nikolai Olegovich</span>
-                        </li>
-                        <li>
-                            <h4>Birth date</h4>
-                            <span>
-                                <time datetime="2000-05-17">2000.05.17</time>
-                            </span>
-                        </li>
-                        <li>
-                            <h4>Gender</h4>
-                            <span>male</span>
-                        </li>
-                    </ul>
+                            <ul class="nomarker_ul personal_ul">
+                                <li class="nomarker_li">
+                                    <h4 class="title_li">Full name</h4>
+                                    <span>Zhevnerov Nikolai Olegovich</span>
+                                </li>
+                                <li class="nomarker_li">
+                                <h4 class="title_li">Birth date</h4>
+                                        <time datetime="2000-05-17">2000.05.17</time>
+                                </li>
+                                <li class="nomarker_li">
+                                    <h4 class="title_li">Gender</h4>
+                                    <span>Male</span>
+                                </li>
+                                </ul>
+                    </div>  
                 </article>
 
                 <!-- Contact information -->
-                <article class="contact-inf">
-                    <ul>
-                        <li>
-                            <h4>Email</h4>
-                            <a href="mailto:miakalayzh@gmail.com">miakalayzh@gmail.com</a>
+                <article class="contact_container">
+                    <h3 class="article_title">Contact information</h3>
+
+                    <ul class="nomarker_ul contact_ul">
+                        <li class="nomarker_li">
+                            <h4 class="title_li">Email</h4>
+                            <a class="text_link" href="mailto:miakalayzh@gmail.com">miakalayzh@gmail.com</a>
                         </li>
-                        <li>
-                            <h4>Telephone number</h4>
-                            <a href="tel:+375259246761"></a>
+                        <li class="nomarker_li">
+                            <h4 class="title_li">Telephone number</h4>
+                            <a class="text_link" href="tel:+375259246761">+375259246761</a>
                         </li>
-                        <li>
-                            <h4>Website</h4>
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-                                Missing at the time of creation CV
+                        <li class="nomarker_li">
+                            <h4 class="title_li">Website</h4>
+                            <a class="text_link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                                Absent at the time of CV creation
                             </a>
                         </li>
                     </ul>
@@ -69,68 +72,53 @@
 
                 <!-- Brief inf. about myself -->
                 <article>
-                    <ul>
-                        <li>
-                            <h4>My goal and priorities</h4>
-                            <ul>
-                                <li>
-                                    <p>My goal is to become an Front-End Developer</p>
-                                </li>
-                                <li>
-                                    <p>My priorities are to get structured and complete knowledge, sufficient to ensure the effectiveness of further training and the results of future work</p>
-                                </li>
-                            </ul>
-                        </li>
+                    <h3 class="article_title myself_ul">Brief information about myself</h3>
 
-                        <li>
-                            <h4>My strengths</h4>
-                            <ul>
-                                <li>
-                                    <span>Learnability, openness and desire for new knowledge</span>
-                                </li>
-                                <li>
-                                    <span>Perseverance, patience</span>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <h4>Personal qualities</h4>
-                            <ul>
-                                <li><span>Honesty, tolerance</span></li>
-                                <li><span>Punctuality</span></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <h4>Free time activities</h4>
-                            <p>
-                                My free time is separated from occupations related to profession or study. Usually it is quiet or active leisure alone or with friends, running or basketball, reading books, playing the guitar
+                    <ul class="nomarker_ul myself_ul">
+                        <li class="nomarker_li">
+                            <h4 class="title_li">My goal</h4>
+                            <p class="paragraph_nomargin">
+                                My goal is to become a front-end developer as my profession. Being interested in user interface development, I chose Front-end as my area of focus.
                             </p>
                         </li>
-
+                        <li>
+                            <h4 class="title_li">My strengths</h4>
+                            <ul>
+                                <li>Learnability, openness and desire for new knowledge</li>
+                                <li>Perseverance, patience</li>
+                            </ul>
+                        </li>
                     </ul>
+                    
                 </article>
             
                 <!-- Professional knowledge -->
-                <article class="prof-knowledge">
-                    <ul>
-                        <li>
-                            <h4>Education</h4>
+                <article class="prof_container">
+                    <h3 class="article_title">Professional skills and knowledge</h3>
+
+                    <ul class="nomarker_ul prof_ul">
+                        <li  class="nomarker_li">
+                            <h4 class="title_li">Education</h4>
                             <ul>
+                                <li class="nomarker_li">
+                                    <h5 class="subli_title">Belarusian State University of Informatics and Radioelectronics</h5>
+                                    <ul class="nomarker_ul bsuir_ul">
+                                        <li>Bachelor's degree, Micro- and Nanoelectronic Technologies and Systems	</li>
+                                    </ul>
+                                </li>
                                 <li>
-                                    <h5>Online courses</h5>
+                                    <h5 class="subli_title">Online courses</h5>
                                     <ul>
-                                        <li>
-                                            <span><em>Introduction to the Internet</em> on WebReference (<a href="https://webref.ru/course/introduction">link</a>)
+                                        <li class="subsub_li">
+                                            <span> <a class="text_link " href="https://webref.ru/course/introduction" target="_blank">Introduction to the Internet</a> on WebReference
                                             </span>
                                         </li>
-                                        <li>
-                                            <span><em>HTML5 Basics</em> by <em>Yauhen Kavalchuk</em> (<a href="https://www.youtube.com/playlist?list=PLNkWIWHIRwMFtHHg0amAgocYP-kZypbY7">link</a>)
+                                        <li class="subsub_li">
+                                            <span><a class="text_link" href="https://www.youtube.com/playlist?list=PLNkWIWHIRwMFtHHg0amAgocYP-kZypbY7" target="_blank">HTML5 Basics</a> by Yauhen Kavalchuk
                                             </span>
                                         </li>
-                                        <li>
-                                            <span><em>CSS3 Basics</em> by <em>Yauhen Kavalchuk</em> (<a href="https://www.youtube.com/playlist?list=PLNkWIWHIRwMHUawuIEpPI_tOG7Mfhs_sA">link</a>)
+                                        <li class="subsub_li">
+                                            <span><a class="text_link" href="https://www.youtube.com/playlist?list=PLNkWIWHIRwMHUawuIEpPI_tOG7Mfhs_sA" target="_blank">CSS3 Basics</a> by Yauhen Kavalchuk
                                             </span>
                                         </li>
                                     </ul>
@@ -139,8 +127,8 @@
 
                         </li>
 
-                        <li>
-                            <h4>Skills</h4>
+                        <li class="nomarker_li">
+                            <h4 class="title_li">Skills</h4>
                             <ul>
                                 <li>HTML5</li>
                                 <li>CSS3</li>
@@ -148,32 +136,32 @@
                             </ul>
                         </li>
 
-                        <li>
-                            <h4>Sample code</h4>
+                        <li class="nomarker_li">
+                            <h4 class="title_li">Sample code</h4>
                             <pre>
-                                <code>
-                                    for(let i = 0; i &lt;= progrNubm; i++){
-                                        alert(&quot;Hello World!&quot;);
-                                    }
+                                <code class="code_sample">
+for(let i = 0; i &lt;= progrNubm; i++){
+    alert(&quot;Hello World!&quot;);
+}
                                 </code>
                             </pre>
                         </li>
 
-                        <li>
-                            <h4>Languages</h4>
+                        <li class="nomarker_li">
+                            <h4 class="title_li">Languages</h4>
                             <ul>
                                 <li>
-                                    <p>Russian (native)</p>
+                                    <p class="paragraph_nomargin">Russian (native)</p>
                                 </li>
                                 <li>
-                                    <p>English (A2)</p>
+                                    <p class="paragraph_nomargin">English (A2)</p>
                                 </li>
                             </ul>
                         </li>
 
-                        <li>
-                            <h4>Experience</h4>
-                            <p>Missing at the time of creation CV</p>
+                        <li class="nomarker_li">
+                            <h4 class="title_li">Experience</h4>
+                            <p class="paragraph_nomargin">Missing at the time of creation CV</p>
                         </li>
                     </ul>
                 </article>
@@ -182,24 +170,35 @@
         </main>
 
         <!-- Footer with Date, RS School logo&link, link on my GitHub  -->
-        <footer>
-
-            <!-- Date of creation -->
-            <time datetime="2021-03-05">2021.03.05</time>
-
-            <!-- RS School courses logo with link -->
-            <figure>
-                <a href="https://app.rs.school/" target="_blank">
-                    <img class="rs-logo" src="img/rs_logo.png">
-                </a>
-                
-                <figcaption>RS School</figcaption>
-            </figure>
+        <footer class="footer">
 
             <!-- My GitHub account -->
-            <form action="https://github.com/nickzh-17" target="_blank">
-                <input type="submit" value="My GitHub account"/>
-            </form> 
+            <figure class="github_container">
+                <figcaption class="github_capture">My GitHub account</figcaption>
+                <a class="github_link" href="https://github.com/nickzh-17" target="_blank">
+                    <img class="github_ava"
+                    src="https://avatars.githubusercontent.com/u/75973470?s=460&u=169b3793d36c0e90330f38548858cb6f39744971&v=4" 
+                    alt="My Github Avatar">
+                </a>
+            </figure>
+
+            <!-- Date of creation -->
+            <div class="creation_date">
+                <div class="creation_date_title">Day of creation</div>
+                <time class="creation_date_time" datetime="2021-03-05">2021.03.05</time>
+            </div>
+            
+            <!-- RS School courses logo with link -->
+            <figure class="fig_rs">
+                <figcaption>RS School</figcaption>
+
+                <a class="rss_link"
+                href="https://app.rs.school/" 
+                target="_blank">
+                    <img class="img_rs" 
+                    src="https://app.rs.school/static/images/logo-rsschool3.png">
+                </a>
+            </figure>
 
         </footer>
     </div>
