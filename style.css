@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+.text_link {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+.text_link:hover {
+  color: green;
+}
+.text_link:active {
+  color: #0fd90f;
+}
+
+/* #region Common Lists styles */
+.nomarker_ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  height: auto;
+}
+.personal_ul {
+  margin: 24px 0 0 0;
+  padding: 0;
+}
+.nomarker_li {
+  margin: 0 0 10px 0;
+}
+.title_li {
+  margin: 0 0 5px 0;
+}
+/* #endregion */
+
+.wrapper {
+  background-color: #f0eded;
+  width: 60%;
+  margin: auto;
+}
+
+.header {
+  background-color: #bdbdbd;
+  display: flex;
+  justify-content: space-between;
+}
+.cv_header {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 3px;
+}
+.speciality_header {
+  font-size: 20px;
+  display: flex;
+  align-self: flex-end;
+}
+
+.content_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.article_title {
+  margin: 10px 0 15px 3px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-size: 20px;
+}
+
+/* #region Personal block unique styles */
+.personal_container {
+  display: flex;
+  flex-direction: column;
+}
+.personal_content {
+  display: flex;
+  justify-content: space-around;
+}
+.personal_photo {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: auto;
+  margin: 0px;
+  align-content: center;
+  font-weight: bolder;
+}
+.personal_img {
+  display: flex;
+  align-self: center;
+  width: 250px;
+  border-radius: 10%;
+}
+/* #endregion */
+
+/* #region  Contacts block unique styles */
+.contact_ul {
+  margin: 16px 0 0 0;
+}
+/* #endregion */
+
+/* #region  Myself block unique styles */
+
+.myself_ul {
+    margin-bottom: 0;
+}
+.paragraph_nomargin {
+    margin: 0;
+}
+
+/* #endregion */
+
+/* #region  Professional block unique styles */
+
+.subli_title {
+    font-size: 16px;
+    margin: 0;
+}
+.subsub_li {
+    list-style-type: circle ;
+}
+.bsuir_ul {
+    padding: 0;
+}
+pre {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+}
+.code_sample {
+    width: 300px;
+    height: 80px;
+    background-color: #e8e8e8;  
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* #endregion */
+
+/* #region  Footer block unique styles */
+.footer {
+  background-color: #bdbdbd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.github_container {
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+}
+
+.github_link {
+  display: flex;
+  width: 70px;
+  margin: 5px 0 0 0;
+  align-self: center;
+  border-radius: 50%;
+}
+.github_ava {
+  width: 70px;
+  margin: 0;
+  border-radius: 50%;
+}
+.creation_date {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.creation_date_time {
+    align-self: center;
+}
+
+.fig_rs {
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+  }
+.img_rs {
+    width: 60px;
+    background-color: white;
+}
+.rss_link {
+    margin-top: 5px;
+    width: auto;
+    height: 21.58px;
+}
+/* #endregion */
